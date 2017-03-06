@@ -20,12 +20,12 @@ Technology Used
 Code Walkthrough
 -----------------
 
-The Rest Service fetches the Profile Details from the database by PhoneNumber
-Controller => Service => DAO (Uses Dynamic Finders) 
-CommonUtil is a static class which helps to validate the input Phone Number
-DAO - Uses GORM dynamic finders to fetch details from H2 Inbuild memory Database
-messages.properties INTERNATIONALIZATION feature, configured the Client response messages 
-URL Mapping -> Mapped the URL with the action
+The Rest Service fetches the Profile Details from the database by PhoneNumber <br>
+Controller => Service => DAO (Uses Dynamic Finders) <br>
+CommonUtil is a static class which helps to validate the input Phone Number<br>
+DAO - Uses GORM dynamic finders to fetch details from H2 Inbuild memory Database<br>
+messages.properties INTERNATIONALIZATION feature, configured the Client response messages <br>
+URL Mapping -> Mapped the URL with the action<br>
 
 Validation
 ------------------------------------

@@ -9,12 +9,12 @@ GET Method -  fetch profile details by phone number and render JSON reponse
 Technology Used
 ----------------
 
- 1, Grails
- 2, Groovy
- 3, Test case - Spock 
- 4, H2 Inbuit memory DB
- 5, Maven
- 6, Hibernate/GORM - One to Many Relationship
+ 1, Grails <br>
+ 2, Groovy <br>
+ 3, Test case - Spock <br>
+ 4, H2 Inbuit memory DB <br>
+ 5, Maven <br>
+ 6, Hibernate/GORM - One to Many Relationship <br>
  
 
 Code Walkthrough

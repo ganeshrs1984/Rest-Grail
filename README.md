@@ -9,12 +9,12 @@ GET Method -  fetch profile details by phone number and render JSON reponse
 Technology Used
 ----------------
 
- Grails
- Groovy
- Spock Test case
- H2 Inbuit memory DB
- Maven
- Spoc for Unit test cases
+ 1, Grails
+ 2, Groovy
+ 3, Test case - Spock 
+ 4, H2 Inbuit memory DB
+ 5, Maven
+ 6, Hibernate/GORM - One to Many Relationship
  
 
 Code Walkthrough
@@ -36,4 +36,27 @@ exp should be > 0
 email : email format
 tech should not be empty
 
-<p style="color:green;">GET   - Get Profile details by phone number    - Goor Response <p>
+GET   - Get Profile details <br>
+
+	Valid Phone number    - Goor Response 
+	--------------------------------------
+
+	eg: 
+	URL - http://localhost:8080/profile/profile?phone=6121111111  
+	URL - http://localhost:8080/profile/profile?phone=6121111112
+
+
+	Phone Number Not Found - 
+	-------------------------
+
+	URL - http://localhost:8080/profile/profile?phone=6121111117
+
+
+ 	2) Invalid PhoneNumber 
+	-----------------------
+
+	URL - http://localhost:8080/profile/profile?phone=6121111A
+	URL - http://localhost:8080/profile/profile?phone=6121111111111111
+
+
+POST - Under work 

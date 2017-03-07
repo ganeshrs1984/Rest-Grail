@@ -11,7 +11,7 @@ Technology Used
 
  1, Grails <br>
  2, Groovy <br>
- 3, Test case - Spock <br>
+ 3, Test Framework - Spock <br>
  4, H2 Inbuit memory DB <br>
  5, Maven <br>
  6, Hibernate/GORM - One to Many Relationship <br>

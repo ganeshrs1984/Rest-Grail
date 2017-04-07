@@ -30,11 +30,11 @@ URL Mapping -> Mapped the URL with the action<br>
 Validation  - Using Command Objects
 -----------------------------------
 
-1 - Phone should be numeric
-2 - Name should not be empty
-3 - Exp should be > 0
-4 - Email : email format
-5 - Tech should not be empty
+1 - Phone should be numeric <br>
+2 - Name should not be empty <br>
+3 - Exp should be > 0 <br>
+4 - Email : email format <br>
+5 - Tech should not be empty <br>
 
 GET   - Get Profile details <br>
 

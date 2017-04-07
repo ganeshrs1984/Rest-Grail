@@ -27,8 +27,8 @@ DAO - Uses GORM dynamic finders to fetch details from H2 Inbuild memory Database
 messages.properties INTERNATIONALIZATION feature, configured the Client response messages <br>
 URL Mapping -> Mapped the URL with the action<br>
 
-Validation
-------------------------------------
+Validation  - Using Command Objects
+-----------------------------------
 
 phone should be numeric 
 name should not be empty
